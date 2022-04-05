@@ -6,25 +6,28 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiExpress
 } from "react-icons/si";
+import {
+DiNodejs,
+DiMongodb,
+
+  } from "react-icons/di";
+  import {
+FaNodeJs
+  } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <FaNodeJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiExpress />
       </Col>
     </Row>
   );
