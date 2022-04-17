@@ -23,7 +23,7 @@ function Projects() {
               imgPath={aeroclub}
               isBlog={false}
               title="Aeroclub Mendoza"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Web page of a flying club, where you can calculate the cost of the course as a pilot in addition to having information about all the activities you can do"
               link="https://www.aeroclubmendoza.com.ar/"
             />
           </Col>
