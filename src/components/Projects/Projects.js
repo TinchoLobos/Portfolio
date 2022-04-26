@@ -23,7 +23,7 @@ function Projects() {
               imgPath={aeroclub}
               isBlog={false}
               title="Aeroclub Mendoza"
-              description="Web page of a flying club, where you can calculate the cost of the course as a pilot in addition to having information about all the activities you can do"
+              description="Web page of a flying club, where you can calculate the cost of the course as a pilot in addition to having information about all the activities you can do."
               link="https://www.aeroclubmendoza.com.ar/"
             />
           </Col>
@@ -32,9 +32,9 @@ function Projects() {
             <ProjectCard
               imgPath={comingSoon}
               isBlog={false}
-              title="Escuela Mendocina de Parapente"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              link="https://www.aeroclubmendoza.com.ar/"
+              title="My Check List"
+              description="Check list for daily use. You can  add and delete items, modify them and put a mark when they are done"
+              link="https://tincholobos.github.io/My-check-List/"
             />
           </Col>
 
