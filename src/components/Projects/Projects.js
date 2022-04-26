@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import aeroclub from "../../Assets/aeroclubMendoza.jpg";
 import comingSoon from "../../Assets/comingSoon.jpg";
+import checkList from "../../Assets/check List.jpg"
 
 
 function Projects() {
@@ -30,7 +31,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoon}
+              imgPath={checkList}
               isBlog={false}
               title="My Check List"
               description="Check list for daily use. You can  add and delete items, modify them and put a mark when they are done"
