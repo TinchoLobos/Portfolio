@@ -4,10 +4,15 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import aeroclub from "../../Assets/aeroclubMendoza.jpg";
 import comingSoon from "../../Assets/comingSoon.jpg";
-import checkList from "../../Assets/check List.jpg"
+import checkList from "../../Assets/check List.jpg";
+import cocktail from "../../Assets/cocktail.jpg";
+import quiz from "../../Assets/quiz.jpg";
+import redux from "../../Assets/redux.jpg";
+import sidebarAndModal from "../../Assets/sidebarAndModal.jpg";
 
 
 function Projects() {
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -41,44 +46,74 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={sidebarAndModal}
+              isBlog={false}
+              title="Sidebar & Modal"
+              description="Sidebar and Modal build with useContext hook."
+              link="https://tincholobos.github.io/sidebarAndModal/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cocktail}
+              isBlog={false}
+              title="Cocktails API"
+              description="Search your favourite cocktail and check all the ingredients you need to do it."
+              link="https://tincholobos.github.io/cocktailAPI/"
+            />
+          </Col>
+              
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quiz}
+              isBlog={false}
+              title="Quiz Game API"
+              description="Question game where you can choose the amount of questions and the category that you  would like to play"
+              link="https://tincholobos.github.io/quiz/"
+            />
+          </Col>
+              
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={redux}
+              isBlog={false}
+              title="Cart "
+              description="Simple cart build with Redux library"
+              link="https://tincholobos.github.io/redux/"
+            />
+          </Col>
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={comingSoon}
               isBlog={false}
-              title="Gim Planner"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              link="https://www.aeroclubmendoza.com.ar/"
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Coming soon"
+              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+              link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={comingSoon}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Coming soon"
+              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+              link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={comingSoon}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Coming soon"
+              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+              link=""
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
