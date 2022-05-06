@@ -1,26 +1,30 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dd693c91.css",
-    "main.js": "/portfolio/static/js/main.cc982471.js",
+    "main.js": "/portfolio/static/js/main.77d40f36.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.224c1ff875be8e90451e.png",
     "static/media/aeroclubMendoza.jpg": "/portfolio/static/media/aeroclubMendoza.ea0b00c43b2505944d10.jpg",
     "static/media/comingSoon.jpg": "/portfolio/static/media/comingSoon.ecea825f6db49f7471d4.jpg",
+    "static/media/cocktail.jpg": "/portfolio/static/media/cocktail.a92265e17bedd8a20ffb.jpg",
     "static/media/check List.jpg": "/portfolio/static/media/check List.1e910a2f43845b68385c.jpg",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.f6b8068277c288b54ee3.jpg",
+    "static/media/redux.jpg": "/portfolio/static/media/redux.edc3636ed5e4f09822cf.jpg",
     "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/portfolio/static/media/Soumyajit_Behera-BIT_MESRA.53cbdad696442b0642b9.pdf",
+    "static/media/sidebarAndModal.jpg": "/portfolio/static/media/sidebarAndModal.f49bf69d84551e71b18b.jpg",
+    "static/media/quiz.jpg": "/portfolio/static/media/quiz.6da386cd9bb14b283a7b.jpg",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
     "main.dd693c91.css.map": "/portfolio/static/css/main.dd693c91.css.map",
-    "main.cc982471.js.map": "/portfolio/static/js/main.cc982471.js.map",
+    "main.77d40f36.js.map": "/portfolio/static/js/main.77d40f36.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd693c91.css",
-    "static/js/main.cc982471.js"
+    "static/js/main.77d40f36.js"
   ]
 }
