@@ -20,19 +20,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />Passionate about programming and solving problems. I am fluent in
+              <br />Passionate about programming and solving problems. Fluent in
               <i>
                 <b className="purple"> JS & React </b>
               </i>
               <br />
            
-              Im interested in gaining experience developing in  &nbsp;
+              I am interested in gaining experience developing in  &nbsp;
               <i>
-                <b className="purple">React Library</b> 
+                <b className="purple">React</b> 
                 </i>
               <br />
             
-              Currently im on a Back-end programing course with 
+              Currently im on course for
                <b className="purple"> Node.js, Express.js and MongoDb</b>
               <i>
                  <br /> 
@@ -44,7 +44,7 @@ function Home2() {
                 </b>
                 Graphic Design &
                   <b className="purple">
-                    Video Edition
+                    Video Editing
                 </b>
 
               

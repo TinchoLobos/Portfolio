@@ -85,7 +85,7 @@ function Projects() {
               imgPath={redux}
               isBlog={false}
               title="Cart "
-              description="Simple cart build with Redux library"
+              description="Simple cart built with Redux library"
               link="https://tincholobos.github.io/reduxcart/"
             />
           </Col>
@@ -101,7 +101,7 @@ function Projects() {
               imgPath={instaAero}
               isBlog={true}
               title="Instagram Aeroclub Mendoza"
-              description="Instagram of Aeroclub Mendoza,the eldest flying school of all Argentina "
+              description="Instagram of Aeroclub Mendoza,the oldest flying school of all Argentina "
               link="https://www.instagram.com/aeromendoza/?hl=es-la"
             />
           </Col>
@@ -110,8 +110,8 @@ function Projects() {
             <ProjectCard
               imgPath={excel}
               isBlog={true}
-              title="Excel DataBase for AirClub"
-              description="Data base  build in Google Sheets (Excel) with all the memberships of the Air club. Here you manage payments, add members, check flights,  check list of airplanes maintenance and much more"
+              title="Excel DataBase for AeroClub"
+              description="Data base  built in Google Sheets (Excel) with all the memberships of the AeroClub. Here you manage payments, add members, check flights,  check list of airplane maintenance and much more"
               link="https://docs.google.com/spreadsheets/d/1LEyqwa0kDuojFOFEb6U-2a_myWc2OoR_Rai5NubX8To/edit?usp=sharing"
             />
           </Col>
@@ -122,7 +122,7 @@ function Projects() {
               imgPath={fly}
               isBlog={true}
               title="Fly Excursion Advertising"
-              description="Video to promote paragliding flight of FlyExcursion company"
+              description="Video to promote paragliding for FlyExcursion company"
               link="https://youtu.be/NZCjh_zSlsw"
             />
           </Col>
