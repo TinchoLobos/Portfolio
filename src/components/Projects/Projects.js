@@ -8,6 +8,10 @@ import checkList from "../../Assets/check List.jpg";
 import cocktail from "../../Assets/cocktail.jpg";
 import quiz from "../../Assets/quiz.jpg";
 import redux from "../../Assets/redux.jpg";
+import instaAero from "../../Assets/instaAero.jpg";
+import excel from "../../Assets/excel.jpg";
+import nature from "../../Assets/nature.png";
+import fly from "../../Assets/fly.jpg";
 import sidebarAndModal from "../../Assets/sidebarAndModal.jpg";
 
 
@@ -20,9 +24,11 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are my projects
-        </p>
+        <br/>
+        <br/>
+        <h3 style={{ color: "white" }}>
+          PROGRAMMING PROJECTS 
+        </h3>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -80,40 +86,58 @@ function Projects() {
               isBlog={false}
               title="Cart "
               description="Simple cart build with Redux library"
-              link="https://tincholobos.github.io/redux/"
+              link="https://tincholobos.github.io/reduxcart/"
             />
           </Col>
+          <br/>
+        <br/>
+        <h3 style={{ color: "white" }}>
+
+          MARKETING PROJECTS
+        </h3>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={instaAero}
+              isBlog={true}
+              title="Instagram Aeroclub Mendoza"
+              description="Instagram of Aeroclub Mendoza,the eldest flying school of all Argentina "
+              link="https://www.instagram.com/aeromendoza/?hl=es-la"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={excel}
+              isBlog={true}
+              title="Excel DataBase for AirClub"
+              description="Data base  build in Google Sheets (Excel) with all the memberships of the Air club. Here you manage payments, add members, check flights,  check list of airplanes maintenance and much more"
+              link="https://docs.google.com/spreadsheets/d/1LEyqwa0kDuojFOFEb6U-2a_myWc2OoR_Rai5NubX8To/edit?usp=sharing"
+            />
+          </Col>
+
           
-
-          <Col md={4} className="project-card">
+              <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoon}
-              isBlog={false}
-              title="Coming soon"
-              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-              link=""
+              imgPath={fly}
+              isBlog={true}
+              title="Fly Excursion Advertising"
+              description="Video to promote paragliding flight of FlyExcursion company"
+              link="https://youtu.be/NZCjh_zSlsw"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoon}
-              isBlog={false}
-              title="Coming soon"
-              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-              link=""
+              imgPath={nature}
+              isBlog={true}
+              title="Mountain Trip Record"
+              description="Video Recorded in Portillo Argentino, Mendoza with the use of a  Gimbal and edited in Davinci Resolve"
+              link="https://youtu.be/ptG657mnXo4"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={comingSoon}
-              isBlog={false}
-              title="Coming soon"
-              description="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-              link=""
-            />
-          </Col>
+  
         </Row>
       </Container>
     </Container>

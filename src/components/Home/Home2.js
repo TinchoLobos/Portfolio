@@ -25,21 +25,29 @@ function Home2() {
                 <b className="purple"> JS & React </b>
               </i>
               <br />
-              <br />
+           
               Im interested in gaining experience developing in  &nbsp;
               <i>
                 <b className="purple">React Library</b> 
-                 <br /> 
-                Also I have experience with{" "}
-                <b className="purple">
-                Graphic Design and Video Edition
-                </b>
-              </i>
+                </i>
               <br />
-              <br />
+            
               Currently im on a Back-end programing course with 
                <b className="purple"> Node.js, Express.js and MongoDb</b>
               <i>
+                 <br /> 
+                    <br />
+              <br />
+               I have experience with{" "}
+                <b className="purple">
+                 Social Media Marketing ,
+                </b>
+                Graphic Design &
+                  <b className="purple">
+                    Video Edition
+                </b>
+
+              
                 
               </i>
             </p>
